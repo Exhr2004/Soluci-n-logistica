@@ -32,7 +32,9 @@ public class Proyctodeclase {
               
                 resultado = Multiplicar(km,k);
                 System.out.println("el precio del viaje es" + resultado);
-        
+            case 2:
+                  resultado = sumar(km,k)
+                 System.out.println("la cotización es de"+ sumar);
         }
         
         System.out.println("ingrese el tipo de unidad que desea");
@@ -47,4 +49,8 @@ public class Proyctodeclase {
     public static int Multiplicar(int km, int k){
         return km * k;
     }
+    public static int sumar(int km, int k) {
+          return km * k;
+
+}
 }
